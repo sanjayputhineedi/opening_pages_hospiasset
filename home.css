@@ -1,0 +1,180 @@
+body{
+   padding-top: 68px;
+    }
+/*for hospiasset logo */
+ #logo{
+  width: 100% ;
+  max-width: 75px ;
+  height: 65px;
+  display:block;
+  background-color: rgba(255,255,255,0.6);
+}
+
+
+/*custom navbar styles*/
+.navbar {
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+  -webkit-box-shadow: 0 8px 6px -6px #7d7c7c;
+  -moz-box-shadow: 0 8px 6px -6px #7d7c7c;
+  box-shadow: 0 8px 6px -6px #7d7c7c;
+  border-radius: 0px !important;
+   -moz-border-radius: 0px !important;
+	 -webkit-border-radius: 0px !important;
+	background-color:#fff;
+  z-index: 100;
+ }
+ .navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 16px 12px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-toggle {
+    padding-top: 12px;
+    padding-right: 10px;
+    padding-bottom: 23px;
+    padding-left: 10px;
+}
+.navbar-toggle .icon-bar {
+    background-color: black;
+}
+.navbar-nav>li>a {
+  padding-right: 10px;
+  font-weight: bold;
+  color:#595959;
+  text-align: center;
+}
+.navbar-nav>li>a:hover {
+  padding-right: 10px;
+  font-size: 100%;
+  color:#000;
+  text-align: center;
+  background-color: transparent;
+}
+/*custom navbar styles ends*/
+
+/*footer styles */
+footer li a {
+	color:#5f6368;
+}
+footer ul li img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+}
+
+/* media queries starts*/
+@media screen and (max-width: 250px) {
+  #carouselres {
+    margin-top: 14%;
+  }
+  .navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.navbar-nav>li>a:hover {
+   padding-top: 5px;
+   padding-bottom: 5px;
+   text-align: center;
+}
+}
+@media screen and (min-width: 412px) {
+  #carouselres {
+   margin-top: 15%;
+  }
+  .navbar-nav>li>a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.navbar-nav>li>a:hover {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+}
+@media screen and (min-width: 550px) {
+  #carouselres {
+  margin-top: 2%;
+  }
+  .navbar-nav>li>a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.navbar-nav>li>a:hover {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+}
+@media screen and (max-width: 600px) {
+  #carouselres {
+  margin-top: 3%;
+  }
+  .icon-bar:hover  li {
+  display: block;
+ }
+.navbar-nav>li>a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.navbar-nav>li>a:hover {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+}
+@media screen and (min-width: 768px) {
+  #carouselres {
+  margin-top: 0%;
+  }
+.navbar-nav>li>a {
+  padding-top: 26px;
+  padding-bottom: 4px;
+}
+.navbar-nav>li>a:hover {
+  padding-top: 26px;
+  padding-bottom: 4px;
+}
+}
+@media screen and (min-width: 1024px) {
+  #carouselres {
+  margin-top: 0%;
+  }
+  .navbar-nav>li>a {
+  padding-top: 23px;
+  padding-bottom: 22px;
+}
+.navbar-nav>li>a:hover {
+  padding-top: 23px;
+  padding-bottom: 22px;
+}
+}
+@media screen and (min-width: 1200px) {
+  #carouselres {
+  margin-top: 0%;
+  }
+.navbar-nav>li>a {
+  padding-top: 25px;
+  padding-bottom: 23px;
+}
+.navbar-nav>li>a:hover {
+  padding-top: 25px;
+  padding-bottom: 23px;
+}
+}
+@media screen and (min-width: 1300px) {
+  #carouselres {
+  margin-top: 0%;
+  }
+.navbar-nav>li>a {
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+.navbar-nav>li>a:hover {
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+}
+
+

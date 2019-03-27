@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HospiAsset</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="home.css">
+  <style>
+	body {padding-top:49px;}
+  .form-control {
+		width:60%;
+		margin:0px 8px 8px 8px;
+		padding-top:7px;
+  }
+  .form-group {margin-bottom: -6px;}
+  .control-label {padding-left:10px;}
+  address ul li {padding:2px;}
+  #contactdetails{
+  -webkit-box-shadow: 0 8px 6px -4px #7d7c7c;
+  -moz-box-shadow: 0 8px 6px -4px #7d7c7c;
+  box-shadow: 0 8px 6px -4px #7d7c7c;
+	}
+	/* media queries starts*/
+	@media screen and (max-width: 250px) {
+  .form-control {
+		width:60%;
+		margin:0px 8px 8px 8px;
+		padding-top:7px;
+  }
+ 
+	}
+  </style>
+</head>
+
+<body>
+<!--nav bar-->
+<nav class="navbar">
+  <div >
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <img id="logo" class="navbar-brand" src="logo1.png"/>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    	<ul class="nav navbar-nav navbar-right">
+				<li><a href="index.html">Home</a></li>
+      	<li><a href="aboutus.html">About Us</a></li>
+        <li><a href="features.html">Features</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+        <li><a href="http://www.hospiasset.com/hospiasset/#/login">Sign In</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+  </div>
+</nav></br>
+<!--navbar ends-->
+
+<div class="container-fluid" id="contactdetails" style=" color:#fff; padding:3%;background-image:url(baner-img.jpg)">
+  <div class="row" style="background-color:#89BB24; padding-bottom:15px">
+		<h1 style="text-align:center;"><b>Contact Us</b></h1>
+		<div style="padding-left:90px"; class=" col-xs-12 col-sm-5 col-lg-5">
+      <div class="card bg-light mb-3">
+        <div class="card-header text-white"><i class="fa fa-home"></i>
+					<h3>Contact Info</h3>
+				</div>
+
+        <div class="card-body">
+          <address>
+				  	<ul style="list-style-type:none">
+							<li><strong class="glyphicon glyphicon-map-marker">Address</strong><br></li>
+							<li>Renown Analytics IT Solutions Pvt Ltd</li>
+							<li> #502A, Prashanthi Ram Towers,</li>
+							<li>Near Sarathi Studio,</li>
+							<li>Yousufguda Road,</li>
+							<li>Hyderabad-500016,</li>
+							<li>INDIA.</li>
+							<li class="glyphicon glyphicon-earphone"> +914069998567</li><br>
+							<li class="glyphicon glyphicon-envelope"> info@renownanalytics.com </li><br>
+							<li class="glyphicon glyphicon-globe"> www.renownanalytics.com</li>				
+				 		</ul>
+					</address>
+        </div>
+      </div>
+        </div>
+				
+      <div class="col-xs-12 col-sm-7 col-lg-7">
+        <div class="card">
+          <div class="card-body">
+            <form class="form-horizontal">
+							<div class="form-group">
+								<label class="control-label" for="Plan">Plan :</label>
+									<div>
+									<input type="text" class="form-control" id="Plan" name="Plan" >
+									</div>
+							</div>
+						
+							<div class="form-group">
+								<label class="control-label" for="Name">Name :</label>
+									<div>
+									<input type="text" class="form-control" id="Name" placeholder="Enter Name" name="Name" required>
+									</div>
+							</div>
+						
+							<div class="form-group">
+								<label class="control-label" for="Designation">Designation :</label>
+									<div>
+									<input type="text" class="form-control" id="Designation" placeholder="Designation" name="Designation" required>
+									</div>
+							</div>
+						
+							<div class="form-group">
+								<label class="control-label" for="phonenum">Mobile Number :</label>
+									<div>
+									<input type="tel" class="form-control" id="phonenum" placeholder=" 0123456789" pattern="^\d{3}\d{3}\d{4}$" required >
+									</div>
+							</div>
+						
+							<div class="form-group">
+								<label class="control-label" for="email">Email:</label>
+									<div>
+									<input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+									</div>
+							</div>
+                       
+            	<div class="form-group">
+								<label class="control-label" for="Hospital Name">Hospital Name:</label>
+								<div>
+								<input type="text" class="form-control" id="Hospital Name" placeholder="Enter Hospital Name" name="Hospital Name" required>
+								</div>
+							</div>
+						
+							<div class="form-group">
+								<label class="control-label" for="email">Location:</label>
+								<div>
+								<input type="text" class="form-control" id="Location" placeholder="Enter Location" name="Location" required>
+								</div>
+							</div>
+						
+							<div class="form-group">
+								<label class="control-label" for="email">Hospital Capacity :</label>
+								<div>
+								<input type="number" class="form-control" id="Hospital Capacity" placeholder="Hospital Capacity" name="Hospital Capacity" required>
+								</div>
+							</div>
+                        
+              <button style="margin:6px 0px 0px -7px;" type="submit" class="btn btn-primary text-right">Submit</button>
+					</form>
+				</div>  
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+  <div class="footer-copyright text-center py-3"><br><br>© 2019 Copyright:
+    <a href="http://hospiasset.com/"> HospiAsset</a>
+  </div>
+</footer>  
+</body>
+</html>

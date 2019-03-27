@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HospiAsset</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="home.css">
+  <style>
+
+  #example1 {
+  padding: 30px;
+  background: url(baner-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; background-position: center;
+}
+.boxpanel {
+	width:102%;
+	box-sizing:border-box;
+	border:1px solid #E1A629;
+	border-radius: 7px !important;
+    -moz-border-radius: 7px !important;
+	-webkit-border-radius: 7px !important;
+	background: rgba(225, 166, 41,0.3);
+	margin:0px 0px 1px 0px;
+	text-align:left;
+	padding:10px;
+}
+.getit{
+	background-color:#EEA622;
+	margin:0px auto;
+	Width:100%;
+	text-align:center;
+}
+.bgcolored p{
+	
+	padding:8px;
+}
+
+.bgcolored {
+	background-color:#f2f2f2;
+	border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+	-webkit-border-radius: 10px !important;
+}
+.bgcolored:hover {
+	background-color:#f2f2f2;
+	-webkit-box-shadow: 10px 18px 6px -6px #7d7c7c;
+    -moz-box-shadow: 10px 18px 6px -6px #7d7c7c;
+    box-shadow: 10px 18px 6px -6px #7d7c7c;
+}
+
+.bgcolored:hover .getit {
+	color:#fff;
+	font-weight:bold;
+	margin:0px auto;
+	Width:100%;
+	text-align:center;
+}
+.item-1,.item-2,.item-3 {
+	position: relative;
+	color:#fff;
+	display: block;
+	top: 2em;
+    width: 75%;
+    font-size: 1em;
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+ }
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+  
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+/*@keyframes anim-1 {
+	0%, 8.3% { left: -40%; opacity: 0; }
+	8.3%,25% { left: 15%; opacity: 1; }
+	33.33%, 100% { left: 55%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -40%; opacity: 0; }
+	41.63%, 58.29% { left: 15%; opacity: 1; }
+	66.66%, 100% { left: 55%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% {left: -40%; opacity: 0; }
+	74.96%, 91.62% { left: 15%; opacity: 1; }
+	100% { left: 55%; opacity: 0; }
+}*/
+
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -40%; opacity: 0; }
+	8.3%,25% { left: 15%; opacity: 1; }
+	33.33%, 100% { left: 55%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 8.3% { left: -40%; opacity: 0; }
+	8.3%,25% { left: 15%; opacity: 1; }
+	33.33%, 100%  { left: 55%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 8.3% { top:-150%;left: -40%; opacity: 0; }
+	8.3%,25%{ top:-20%;left: 15%; opacity: 1; }
+	33.33%, 100%  { top:-20%;left: 55%; opacity: 0; }
+}
+
+
+
+</style>
+
+</head>
+<body>
+<nav class="navbar">
+  <div>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span style="color:#5f6368" class="icon-bar"></span>
+        <span style="color:#5f6368" class="icon-bar"></span>
+        <span style="color:#5f6368" class="icon-bar"></span>                        
+      </button>
+      <img id="logo" class="img-responsive navbar-brand" src="logo1.png"/>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+       <ul class="nav navbar-nav navbar-right">
+		<li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="features.html">Features</a></li>
+		<li><a href="contactus.html">Contact Us</a></li>
+        <li><a href="http://www.hospiasset.com/hospiasset/#/login">Sign In</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="example1" style="max-width: 101%;overflow:hidden;background-image:url(baner-img.jpg)">
+	<h1 style="color:#E1A629;text-align:center;padding-top:10px"><b>Features</b></h1>
+	<!--first slide stars-->
+	<div class="item-1 row">
+	<aside class="col-xs-12 col-sm-12 col-lg-3">
+	<center>
+	<h3>Escalations</h3>
+	
+	<p class="boxpanel">Admin can create escalation levels for all type of calls like emergency,scheduled, contracts etc.</p>
+	</center>
+	</aside>
+
+	<aside class="col-xs-12 col-sm-12 col-lg-3">
+	<center>
+	<h3>Seheduled Reporting</h3>
+	
+	<p class="boxpanel">Create, schedule, run and share reports to fit your needs</p>
+	</center>
+	</aside>
+	
+	<aside class="col-xs-12 col-sm-12 col-lg-3">
+	<center>
+	<h3>Seheduled Reporting</h3>
+	
+	<p class="boxpanel">Create, schedule, run and share reports to fit your needs</p>
+	</center>
+	</aside>
+	
+	<aside class="col-xs-12 col-sm-12 col-lg-3">
+	<center>
+	<h3>Contracts</h3>
+	
+	<p class="boxpanel">free alerts for contracts renewals and contracts comparism between the vendors</p>
+	</center>
+	</aside>
+	</div>
+	<!--first slide ends-->
+
+	<!--second slide starts-->
+	<div class="item-2 row">
+	<aside class="col-xs-12 col-sm-12 col-lg-3">
+	<center>
+	<h3>Escalations</h3>
+	
+	<p class="boxpanel">Admin can create escalation levels for all type of calls like emergency,scheduled, contracts etc.</p>
+	</center>
+	</aside>
+
+	<aside class="col-xs-12 col-sm-12 col-lg-3">
+	<center>
+	<h3>Seheduled Reporting</h3>
+	
+	<p class="boxpanel">Create, schedule, run and share reports to fit your needs</p>
+	</center>
+	</aside>
+	
+	<aside class="col-xs-12 col-sm-12 col-lg-3">
+	<center>
+	<h3>Seheduled Reporting</h3>
+	
+	<p class="boxpanel">Create, schedule, run and share reports to fit your needs</p>
+	</center>
+	</aside>
+	
+	<aside class="col-xs-12 col-sm-12 col-lg-3">
+	<center>
+	<h3>Contracts</h3>
+	
+	<p class="boxpanel">free alerts for contracts renewals and contracts comparism between the vendors</p>
+	</center>
+	</aside>
+	</div>
+	<!--second slide ends -->
+
+	<!--third slide statrs -->
+	<div class="item-3 row">
+	<aside class="col-xs-12 col-sm-12 col-lg-3">
+	<center>
+	<h3>Escalations</h3>
+	
+	<p class="boxpanel">Admin can create escalation levels for all type of calls like emergency,scheduled, contracts etc.</p>
+	</center>
+	</aside>
+
+	<aside class="col-xs-12 col-sm-12 col-lg-3">
+	<center>
+	<h3>Seheduled Reporting</h3>
+	
+	<p class="boxpanel">Create, schedule, run and share reports to fit your needs</p>
+	</center>
+	</aside>
+	
+	<aside class="col-xs-12 col-sm-12 col-lg-3">
+	<center>
+	<h3>Seheduled Reporting</h3>
+	
+	<p class="boxpanel">Create, schedule, run and share reports to fit your needs</p>
+	</center>
+	</aside>
+	
+	<aside class="col-xs-12 col-sm-12 col-lg-3">
+	<center>
+	<h3>Contracts</h3>
+	
+	<p class="boxpanel">free alerts for contracts renewals and contracts comparism between the vendors</p>
+	</center>
+	</aside>
+	</div>
+	<!--third slide ends-->
+<!--<p class="item-2">Seheduled Reporting</p>
+
+<p class="item-3">call management system</p>-->
+</section>
+
+
+ <!--Pricing-->
+ <section class="container">
+	<h1 style="color:#E1A629;text-align:center;padding-top:10px"><b>Pricing</b></h1>
+	<aside class=" col-xs-12 col-sm-12 col-lg-4">
+		<div class="bgcolored text-center">
+			<div class=" btn-primary"><h1>FREE</h1></div>
+			<p class="getit">Get it now!</p>
+			<p>Start Your Free Trial</p>
+			<p>Limited to single Dept</p>
+			<p>Limited to 3 Users</p>
+			<p>Includes 1 GB Space</p>
+			<p>Cloud Hosted SaaS or Locally Installed</p>
+			<p>Flexible, Affordable and Fast</p>
+			<p>Free Getting started Training</p>
+			<p>Email Support</p>
+		</div>
+	 </aside>
+	 
+	 <aside class="col-xs-12 col-sm-12 col-lg-4">
+		<div class="bgcolored text-center">
+			<div class="btn-primary"><h1>PREMIUM</h1></div>
+			<p class="getit">Get it now!</p>
+			
+			<p>Request a Demo</p>
+			<p>Single Unit</p>
+			<p>Limited to 10 users</p>
+			<p>Includes 5 GB Space</p>
+			<p>Cloud Hosted SaaS or Locally Installed</p>
+			<p>Flexible, Affordable and Fast</p>
+			<p>Free Getting started Training</p>
+			<p>24X7 Support Via Email,Chat and Phone</p>
+
+		</div>
+	 </aside>
+	 
+	 <aside class="col-xs-12 col-sm-12 col-lg-4">
+		<div class="bgcolored text-center">
+			<div class="btn-primary"><h1>ENTREPRISE</h1></div>
+			<p class="getit">Get it now!</p>
+			
+			<p>Request a Demo</p>
+			<p>Multiple Units</p>
+			<p>Unlimited Users</p>
+			<p>Starts with 10 GB space</p>
+			<p>Cloud Hosted SaaS or Locally Installed</p>
+			<p>Flexible, Affordable and Fast</p>
+			<p>Free Getting started Training</p>
+			<p>24X7 Support Via Email,Chat and Phone</p>
+			</div>
+	 </aside>
+ </section>
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+   <div class="footer-copyright text-center py-3"><br><br>
+      <a href="http://hospiasset.com/"> © 2019 Copyright:HospiAsset</a>
+   </div><br>
+</footer>
+</body>
+</html>
