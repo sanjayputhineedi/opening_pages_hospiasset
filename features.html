@@ -7,121 +7,122 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="home.css">
+  <!--favicon-->
+  <link rel="icon" href="logo1.png" type="image/gif" sizes="16x16">
   <style>
+      
+    .fa{
+        font-size: 50px;
+        color:#fff;
+        margin-top:10px;
+		padding:20px;
+        /*text-shadow: 1px 0 #f6f6f6, 0 12px green, 1px 0 green, 0 12px green;*/
+		border: 1px solid white;
+		 border-radius: 50% !important;
+        -moz-border-radius: 50% !important;
+        -webkit-border-radius: 50% !important;
+    }
+   
+	aside center h3 {
+        color:white;
+    }
+    .boxpanel {
+        /*text-indent: 50px;*/
+        width:85%;
+        height:250px;
+        color:white;
+        box-sizing:border-box;
+        border:1px solid #E1A629;
+        border-radius: 7px !important;
+        -moz-border-radius: 7px !important;
+        -webkit-border-radius: 7px !important;
+        background: rgba(225, 166, 41,0.5);
+        margin:20px -5px;
+        text-align:left;
+        padding:5px;
+        
+    }
+   
+    .getit {
+        background-color:#EEA622;
+        margin:0px auto;
+        Width:100%;
+        text-align:center;
+    }
+    .bgcolored p {padding:8px;}
+    .bgcolored {
+        background-color:#f2f2f2;
+        border-radius: 10px !important;
+        -moz-border-radius: 10px !important;
+        -webkit-border-radius: 10px !important;
+    }
+    .bgcolored:hover {
+        background-color:#f2f2f2;
+        -webkit-box-shadow: 10px 18px 6px -6px #7d7c7c;
+        -moz-box-shadow: 10px 18px 6px -6px #7d7c7c;
+        box-shadow: 10px 18px 6px -6px #7d7c7c;
+    }
+    .bgcolored:hover .getit {
+        color:#fff;
+        font-weight:bold;
+        margin:0px auto;
+        Width:100%;
+        text-align:center;
+    }
 
-  #example1 {
-  padding: 30px;
-  background: url(baner-img.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; background-position: center;
-}
-.boxpanel {
-	width:102%;
-	box-sizing:border-box;
-	border:1px solid #E1A629;
-	border-radius: 7px !important;
-    -moz-border-radius: 7px !important;
-	-webkit-border-radius: 7px !important;
-	background: rgba(225, 166, 41,0.3);
-	margin:0px 0px 1px 0px;
-	text-align:left;
-	padding:10px;
-}
-.getit{
-	background-color:#EEA622;
-	margin:0px auto;
-	Width:100%;
-	text-align:center;
-}
-.bgcolored p{
-	
-	padding:8px;
-}
-
-.bgcolored {
-	background-color:#f2f2f2;
-	border-radius: 10px !important;
-    -moz-border-radius: 10px !important;
-	-webkit-border-radius: 10px !important;
-}
-.bgcolored:hover {
-	background-color:#f2f2f2;
-	-webkit-box-shadow: 10px 18px 6px -6px #7d7c7c;
-    -moz-box-shadow: 10px 18px 6px -6px #7d7c7c;
-    box-shadow: 10px 18px 6px -6px #7d7c7c;
-}
-
-.bgcolored:hover .getit {
-	color:#fff;
-	font-weight:bold;
-	margin:0px auto;
-	Width:100%;
-	text-align:center;
-}
-.item-1,.item-2,.item-3 {
-	position: relative;
-	color:#fff;
-	display: block;
-	top: 2em;
-    width: 75%;
-    font-size: 1em;
-	animation-duration: 20s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
- }
-.item-1{
-	animation-name: anim-1;
-}
-
-.item-2{
-	animation-name: anim-2;
+    /*for screen upto 786px */
   
-}
+ @media screen and (max-width: 1200px),(max-width: 1201px) {
+    .boxpanel {
+        width:98%;
+        height:200px;
+    }
+    }
+ @media screen and (max-width: 1000px) {
+    .boxpanel {
+        width:95%;
+        height:250px;
+    }
+    }
+ @media screen and (max-width: 900px) {
+    .boxpanel {
+        width:95%;
+        height:300px;
+    }
+    }
+  @media screen and (max-width: 768px) {
+    .boxpanel {
+        width:98%;
+        height:300px;
+    }
+    }
 
-.item-3{
-	animation-name: anim-3;
-}
-
-/*@keyframes anim-1 {
-	0%, 8.3% { left: -40%; opacity: 0; }
-	8.3%,25% { left: 15%; opacity: 1; }
-	33.33%, 100% { left: 55%; opacity: 0; }
-}
-
-@keyframes anim-2 {
-	0%, 33.33% { left: -40%; opacity: 0; }
-	41.63%, 58.29% { left: 15%; opacity: 1; }
-	66.66%, 100% { left: 55%; opacity: 0; }
-}
-
-@keyframes anim-3 {
-	0%, 66.66% {left: -40%; opacity: 0; }
-	74.96%, 91.62% { left: 15%; opacity: 1; }
-	100% { left: 55%; opacity: 0; }
-}*/
-
-
-@keyframes anim-1 {
-	0%, 8.3% { left: -40%; opacity: 0; }
-	8.3%,25% { left: 15%; opacity: 1; }
-	33.33%, 100% { left: 55%; opacity: 0; }
-}
-
-@keyframes anim-2 {
-	0%, 8.3% { left: -40%; opacity: 0; }
-	8.3%,25% { left: 15%; opacity: 1; }
-	33.33%, 100%  { left: 55%; opacity: 0; }
-}
-
-@keyframes anim-3 {
-	0%, 8.3% { top:-150%;left: -40%; opacity: 0; }
-	8.3%,25%{ top:-20%;left: 15%; opacity: 1; }
-	33.33%, 100%  { top:-20%;left: 55%; opacity: 0; }
-}
-
-
+    @media screen and (max-width: 411px) {
+    .boxpanel {
+        width:90%;
+        height:170px;
+    }
+    }
+     @media screen and (max-width: 414px) {
+    .boxpanel {
+        width:90%;
+        height:170px;
+    }
+    }
+    @media screen and (max-width: 360px) {
+    .boxpanel {
+        width:75%;
+        height:200px;
+    }
+    }
+     @media screen and (max-width: 320px) {
+    .boxpanel {
+        width:85%;
+        height:180px;
+    }
+    }
 
 </style>
 
@@ -139,135 +140,166 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
        <ul class="nav navbar-nav navbar-right">
-		<li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="aboutus.html">About Us</a></li>
         <li><a href="features.html">Features</a></li>
-		<li><a href="contactus.html">Contact Us</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
         <li><a href="http://www.hospiasset.com/hospiasset/#/login">Sign In</a></li>
         <li><a href="#">Support</a></li>
       </ul>
     </div>
   </div>
 </nav>
-
-<section id="example1" style="max-width: 101%;overflow:hidden;background-image:url(baner-img.jpg)">
-	<h1 style="color:#E1A629;text-align:center;padding-top:10px"><b>Features</b></h1>
-	<!--first slide stars-->
-	<div class="item-1 row">
-	<aside class="col-xs-12 col-sm-12 col-lg-3">
-	<center>
-	<h3>Escalations</h3>
-	
-	<p class="boxpanel">Admin can create escalation levels for all type of calls like emergency,scheduled, contracts etc.</p>
-	</center>
-	</aside>
-
-	<aside class="col-xs-12 col-sm-12 col-lg-3">
-	<center>
-	<h3>Seheduled Reporting</h3>
-	
-	<p class="boxpanel">Create, schedule, run and share reports to fit your needs</p>
-	</center>
-	</aside>
-	
-	<aside class="col-xs-12 col-sm-12 col-lg-3">
-	<center>
-	<h3>Seheduled Reporting</h3>
-	
-	<p class="boxpanel">Create, schedule, run and share reports to fit your needs</p>
-	</center>
-	</aside>
-	
-	<aside class="col-xs-12 col-sm-12 col-lg-3">
-	<center>
-	<h3>Contracts</h3>
-	
-	<p class="boxpanel">free alerts for contracts renewals and contracts comparism between the vendors</p>
-	</center>
-	</aside>
-	</div>
-	<!--first slide ends-->
-
-	<!--second slide starts-->
-	<div class="item-2 row">
-	<aside class="col-xs-12 col-sm-12 col-lg-3">
-	<center>
-	<h3>Escalations</h3>
-	
-	<p class="boxpanel">Admin can create escalation levels for all type of calls like emergency,scheduled, contracts etc.</p>
-	</center>
-	</aside>
-
-	<aside class="col-xs-12 col-sm-12 col-lg-3">
-	<center>
-	<h3>Seheduled Reporting</h3>
-	
-	<p class="boxpanel">Create, schedule, run and share reports to fit your needs</p>
-	</center>
-	</aside>
-	
-	<aside class="col-xs-12 col-sm-12 col-lg-3">
-	<center>
-	<h3>Seheduled Reporting</h3>
-	
-	<p class="boxpanel">Create, schedule, run and share reports to fit your needs</p>
-	</center>
-	</aside>
-	
-	<aside class="col-xs-12 col-sm-12 col-lg-3">
-	<center>
-	<h3>Contracts</h3>
-	
-	<p class="boxpanel">free alerts for contracts renewals and contracts comparism between the vendors</p>
-	</center>
-	</aside>
-	</div>
-	<!--second slide ends -->
-
-	<!--third slide statrs -->
-	<div class="item-3 row">
-	<aside class="col-xs-12 col-sm-12 col-lg-3">
-	<center>
-	<h3>Escalations</h3>
-	
-	<p class="boxpanel">Admin can create escalation levels for all type of calls like emergency,scheduled, contracts etc.</p>
-	</center>
-	</aside>
-
-	<aside class="col-xs-12 col-sm-12 col-lg-3">
-	<center>
-	<h3>Seheduled Reporting</h3>
-	
-	<p class="boxpanel">Create, schedule, run and share reports to fit your needs</p>
-	</center>
-	</aside>
-	
-	<aside class="col-xs-12 col-sm-12 col-lg-3">
-	<center>
-	<h3>Seheduled Reporting</h3>
-	
-	<p class="boxpanel">Create, schedule, run and share reports to fit your needs</p>
-	</center>
-	</aside>
-	
-	<aside class="col-xs-12 col-sm-12 col-lg-3">
-	<center>
-	<h3>Contracts</h3>
-	
-	<p class="boxpanel">free alerts for contracts renewals and contracts comparism between the vendors</p>
-	</center>
-	</aside>
-	</div>
-	<!--third slide ends-->
-<!--<p class="item-2">Seheduled Reporting</p>
-
-<p class="item-3">call management system</p>-->
-</section>
+<!--Features section starts-->
+<h1 style="color:#E1A629;text-align:center;" ><center><b>Features</b></center></h1>
+<div stytle="width:90%;" id="carousel-example-generic-0 " class="carousel slide" data-ride="carousel" data-interval="3000"> 
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic-0" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic-0" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic-0" data-slide-to="2"></li>
+    </ol>
+    
+    <!--carousel and controls starts-->    
+    <!--<div class="carousel-inner" style="background-color:#c3daee;">-->
+        <div class="carousel-inner" style="background: url(baner-img.jpg);">
+        <!-- first slide starts here --> 
+        <div class="item active">
+            <div class="row">
+                	<aside class="col-xs-12 col-sm-3 col-lg-3">
+                        <center>
+                        <h3>Escalations</h3>
+                        <!--<div class=" carousel-caption glyphicon glyphicon glyphicon-ok " ></div>-->
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p class="boxpanel">Admin can create escalation levels for all type of calls like emergency,scheduled, contracts etc.</p>
+                        </center>
+                    </aside>
+                    <aside class="col-xs-12 col-sm-3 col-lg-3">
+                        <center>
+                        <h3>Seheduled Reporting</h3>
+                        <!--<div class=" carousel-caption glyphicon glyphicon glyphicon-star " ></div>-->
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <p class="boxpanel">Create, schedule, run and share reports to fit your needs</p>
+                        </center>
+                    </aside>
+                    <aside class="col-xs-12 col-sm-3 col-lg-3">
+                        <center>
+                        <h3>Call Management System</h3>
+                        <!--<div class=" carousel-caption glyphicon glyphicon glyphicon-star " ></div>-->
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <p class="boxpanel" id="customsize">Call Management System is designed for businesses with complex contact-center operations and 
+                            high call volume, Call Management System is a database, administration, and reporting application to help 
+                            businesses identify operational issues and take immediate action to solve them.</p>
+                        </center>
+                    </aside>
+                    <aside class="col-xs-12 col-sm-3 col-lg-3">
+                        <center>
+                        <h3>Contracts</h3>
+                        <!--<div class=" carousel-caption glyphicon glyphicon glyphicon-stats " ></div>-->
+                        <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                        <p class="boxpanel">free alerts for contracts renewals and contracts comparism between the vendors</p>
+                        </center>
+                    </aside>
+            </div>
+        </div>
+        <!-- First slide ends here-->
 
 
+        <!--second slide starts-->
+        <div class="item">
+            <div class="row">
+                <aside class="col-xs-12 col-sm-3 col-lg-3">
+                    <center>
+                        <h3>Transfers</h3>
+                        <!--<div class=" carousel-caption glyphicon glyphicon-ok-circle " ></div>-->
+                        <i class="fa fa-tasks" aria-hidden="true"></i>
+                        <p class="boxpanel">Easy way to transfer asset from one location to other location & status of that equipment</p>
+                    </center>
+                </aside>
+                <aside class="col-xs-12 col-sm-3 col-lg-3">
+                    <center>
+                        <h3>Alerts</h3>
+                        <!--<div class=" carousel-caption glyphicon glyphicon-ok-circle " ></div>-->
+                        <i class="fa fa-list-alt" aria-hidden="true"></i>
+                        <p class="boxpanel">Alerts For Schedule calls, Contract renewals, pending calls,Low stock.</p>
+                    </center>
+                </aside>
+                <aside class="col-xs-12 col-sm-3 col-lg-3">
+                    <center>
+                        <h3>Data Import</h3>
+                        <!--<div class=" carousel-caption glyphicon glyphicon-ok-circle " ></div>-->
+                         <i class="fa fa-phone-square" aria-hidden="true"></i>
+                        <p class="boxpanel">Import your data quickly and easily from an Excel spreadsheet or text or CSV file</p>
+                    </center>
+                </aside>
+                <aside class="col-xs-12 col-sm-3 col-lg-3">
+                    <center>
+                        <h3>Stock</h3>
+                        <!--<div class=" carousel-caption glyphicon glyphicon-ok-circle " ></div>-->
+                         <i class=" fa fa-pencil-square-o" aria-hidden="true"></i>
+                        <p class="boxpanel">Track quantity–based or more complex inventory such as batch-lot and serialized inventory</p>
+                    </center>
+                </aside>  
+            </div>
+        </div>
+        <!--second slide ends here-->
+
+
+        <!--third slide starts here-->
+        <div class="item">
+            <div class="row">
+                <aside class="col-xs-12 col-sm-3 col-lg-3">
+                    <center>
+                        <h3>Viability</h3>
+                        <!--<div class=" carousel-caption glyphicon glyphicon-ok-circle " ></div>-->
+                        <i class=" fa fa-share-square-o" aria-hidden="true"></i>
+                        <p class="boxpanel">Calculate asset Viability over its life, book value and expenses. Use all methods of computing depreciation.</p>
+                    </center>
+                </aside>
+                <aside class="col-xs-12 col-sm-3 col-lg-3">
+                    <center>
+                        <h3>Vendor Rating</h3>
+                        <!--<div class=" carousel-caption glyphicon glyphicon-ok-circle " ></div>-->
+                        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                        <p class="boxpanel customsize">Vendor rating may take the form of a hierarchical ranking from poor to excellent and whatever rankings the firm
+                        chooses to insert in between the two. For some firms, the vendor rating may come in the form of some sort of award system or as
+                        some variation of certification.</p>
+                    </center>
+                </aside>
+                <aside class="col-xs-12 col-sm-3 col-lg-3">
+                    <center>
+                        <h3>Employee Rating</h3>
+                        <!--<div class=" carousel-caption glyphicon glyphicon-ok-circle " ></div>-->
+                         <i class=" fa fa-file" aria-hidden="true"></i>
+                        <p class="boxpanel" id="customsize">Employee appraisal systems help managers evaluate employee job performance and develop a fair system of pay increases
+                        and promotions. Appraisals in turn can help staff members improve performance, and assist companies in devising or reorganizing job
+                        functions to better fit the position or the employee.</p>
+                    </center>
+                </aside>
+                <aside class="col-xs-12 col-sm-3 col-lg-3">
+                    <center>
+                        <h3>Customized Reports</h3>
+                        <!--<div class=" carousel-caption glyphicon glyphicon-ok-circle " ></div>-->
+                         <i class=" fa fa-line-chart" aria-hidden="true"></i>
+                        <p class="boxpanel" id="customsize">A Custom Report is a report that you create. You pick the dimensions (Asset, Vendor, Manufacturer, Abuse, Contracts etc.) 
+                        and metrics (Duration,price,type) and decide how they should be displayed. You must specify at least one dimension and one metric.</p>
+                    </center>
+                </aside>
+            </div>
+        </div>
+        <!--third slide ends here-->
+
+        <!-- left and right Controls --> 
+        <!--<a class="left carousel-control" href="#carousel-example-generic-0" data-slide="prev"> <span class="icon-prev"></span> </a> 
+        <a class="right carousel-control" href="#carousel-example-generic-0" data-slide="next"> <span class="icon-next"></span> </a> -->
+    </div>
+    <!--carousel and controls ends--> 
+</div>
+<!--Features section ends-->
+ 
  <!--Pricing-->
- <section class="container">
-	<h1 style="color:#E1A629;text-align:center;padding-top:10px"><b>Pricing</b></h1>
+<section class="container">
+    <h1 style="color:#E1A629;text-align:center;padding-top:10px"><b>Pricing</b></h1>
 	<aside class=" col-xs-12 col-sm-12 col-lg-4">
 		<div class="bgcolored text-center">
 			<div class=" btn-primary"><h1>FREE</h1></div>
@@ -323,4 +355,5 @@
    </div><br>
 </footer>
 </body>
+<script>$('.carousel.slide').carousel();</script>
 </html>
